@@ -65,14 +65,14 @@ Ensure that the LDAP server is accessible from the machine running the script an
 
 Feel free to customize the script based on your specific LDAP server configuration and authentication requirements.
 
-## Credits
-
-Special thanks to [yumenohikari](https://gist.github.com/yumenohikari) for the original inspiration from the [ha-ldap-auth](https://gist.github.com/yumenohikari/8440144023cf33ab3ef0d68084a1b42f) gist.
-
 ## Documentation
 
 - [Home Assistant Authentication Providers](https://www.home-assistant.io/docs/authentication/providers/) check out the HASS Docs to learn more about how to use LDAP.
 - [Authentik LDAP Provider](https://goauthentik.io/docs/providers/ldap/) learn more about using Authentik as LDAP server.
+
+## Credits
+
+Special thanks to [yumenohikari](https://gist.github.com/yumenohikari) for the original inspiration from the [ha-ldap-auth](https://gist.github.com/yumenohikari/8440144023cf33ab3ef0d68084a1b42f) gist.
 
 ## License
 
