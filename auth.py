@@ -11,6 +11,10 @@ def eprint(*args, **kwargs):
     print(*args, file=sys.stderr, **kwargs)
 
 
+###########################
+### CONFIGURATION START ###
+###########################
+
 # LDAP server configuration
 SERVER = "ldap://YOUR_SERVER_IP:389"
 
@@ -29,6 +33,10 @@ ATTRS = "cn"
 
 # Base filter for LDAP search (you can add a group filter here as well)
 BASE_FILTER = "(objectClass=person)"
+
+#########################
+### CONFIGURATION END ###
+#########################
 
 # Check if required environment variables are set
 if "username" not in os.environ or "password" not in os.environ:
